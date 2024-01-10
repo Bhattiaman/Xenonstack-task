@@ -57,7 +57,7 @@ $ internsctl memory getinfo
 
 # Code for part 2
 
-![Userlist](./images/userlists.png)
+![Userlist](./images/userlists%20.png)
 
 ![Username](./images/username.png)
 
