@@ -78,7 +78,7 @@ $ internsctl user list
 If want to list all the users with sudo permissions on my server through the following command:
 $ internsctl user list --sudo-only
 
-Part3 | Advanced Level
+## Part3 | Advanced Level
 ```By executing below command I want to get some information about a file
 $ internsctl file getinfo <file-name>
 Expected Output [make sure to have the output in following format only]
