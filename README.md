@@ -96,5 +96,7 @@ $ internsctl file getinfo [options] <file-name>
 --last-modified, m
 ```
 
+![Advance](./images/task3.jpeg)
+
 
 # Xenonstack-task
