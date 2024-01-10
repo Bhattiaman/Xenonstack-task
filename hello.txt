@@ -1,0 +1,3 @@
+Hello, this is a sample text file!
+It contains some lines of text.
+You can replace this content with your own.
