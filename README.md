@@ -51,13 +51,33 @@ I want similar output as we get from lscpu command
 ---
 I want to get memory information of my server through the following command:
 $ internsctl memory getinfo
-```
-![Cpu_info command](./images/cpu_info.png)
-![memory_info command]
 
+![Cpu_info command](./images/cpu_info.png)
+![memory_info command](./images/memory_info.png)
 
 # Code for part 2
+
+![Userlist](./images/userlists.png)
+
+![Username](./images/username.png)
+
+![change user name](./images/list.png)
+
+![change user name](./images/list2.png)
+
+
 simple commands play with the root and the user name
+I want to create a new user on my server through the following command:
+$ internsctl user create <username>
+Note - above command should create user who can login to linux system and access his home
+directory
+
+I want to list all the regular users present on my server through the following command:
+$ internsctl user list
+
+If want to list all the users with sudo permissions on my server through the following command:
+$ internsctl user list --sudo-only
 
 
-Remember to replace "Repository Name" with your actual repository name, update the image links (`link_to_image_2` and `link_to_image_3`) with the respective URLs of your images, and modify the placeholder text for "Code of part 2" with the actual code snippet you want to include. This single README file now includes both parts of the code within Section B.
+
+
