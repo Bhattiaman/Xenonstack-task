@@ -78,8 +78,23 @@ $ internsctl user list
 If want to list all the users with sudo permissions on my server through the following command:
 $ internsctl user list --sudo-only
 
-
+Part3 | Advanced Level
+```By executing below command I want to get some information about a file
+$ internsctl file getinfo <file-name>
+Expected Output [make sure to have the output in following format only]
+xenonstack@xsd-034:~$ internsctl file getinfo hello.txt
+File: hellot.txt
+Access: -rw-r--r--
+Size(B): 5448
+Owner: xenonstack
+Modify: 2020-10-07 20:34:44.616123431 +0530
+In case I want only specific information then I must have a provision to use options
+$ internsctl file getinfo [options] <file-name>
+--size, -s to print size
+--permissions, -p print file permissions
+--owner, o print file owner
+--last-modified, m
+```
 
 
 # Xenonstack-task
-sj
